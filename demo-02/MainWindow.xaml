@@ -17,7 +17,7 @@
                 HorizontalAlignment="Stretch" 
                 Orientation="Vertical">
             <Label Name="lblURL" Content="URL"/>
-            <TextBox Name="txtURL" Text="http://www.contoso.com/" Height="25" />
+            <TextBox Name="txtURL" Text="http://www.youtube.com/" Height="25" />
             <Label Name="lbContent"  Content="HTML Source" />
         </StackPanel>
         <TextBox Grid.Row="1" Name="txtContent"  TextWrapping="Wrap"

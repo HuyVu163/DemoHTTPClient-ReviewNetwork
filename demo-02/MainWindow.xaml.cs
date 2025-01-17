@@ -42,6 +42,7 @@ namespace demo_02
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
             txtContent.Text = string.Empty;
+            txtURL.Text = string.Empty; 
         }
 
         private void btnClose_Click(object sender, RoutedEventArgs e) => Close();
